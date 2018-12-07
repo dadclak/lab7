@@ -3,11 +3,11 @@ services:
   web:
     build: .
     ports:
-     - "4000:80"
+     - "5000:5000"
     volumes:
      - .:/code
   redis:
     image: "kozanchyn/lab7_1"
-  web:
-    image: "webapp:${TAG}"
+ 
+
 
